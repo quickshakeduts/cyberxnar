@@ -6,7 +6,7 @@ export default function About() {
 	return (
 		<MainLayout>
 			<Head>
-				<title>О нас</title>
+				<title>О нас | CyberX</title>
 			</Head>
 
 			<h1>О нас</h1>

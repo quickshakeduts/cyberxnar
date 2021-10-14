@@ -12,7 +12,7 @@ export default function Home() {
 			</Head>
 
 			<MainLayout>
-				<h1>Main</h1>
+				<h1>Главная</h1>
 			</MainLayout>
 		</div>
 	);

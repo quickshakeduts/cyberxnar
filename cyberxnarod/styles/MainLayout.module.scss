@@ -1,0 +1,53 @@
+$box_width: 200px;
+$box_height: 50px;
+$container_width: 1100px;
+$buttons_bc: rgb(147, 80, 224);
+
+.ul {
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+	padding-left: 0;
+}
+.ul li {
+	width: $box_width;
+	height: $box_height;
+	background-color: $buttons_bc;
+	color: white;
+	text-align: center;
+	line-height: $box_height;
+	
+}
+.ul li :hover { 
+	transition: all .3s ease;
+	background:#53ea93;
+}
+.ul a {
+	display: block;
+	width: $box_width;
+	height: $box_height;
+}
+.container {
+	max-width: $container_width;
+	margin: 0 auto;
+	background-color: darkblue;
+}
+.imageWrapper {
+	display: flex;
+	justify-content: space-around;
+}
+.main {
+	background-color: chartreuse;
+}
+.footer {
+	background-color: brown;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.footerElem {
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+}
