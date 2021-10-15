@@ -24,6 +24,16 @@ export function MainLayout({ children }) {
                 </Link>
               </li>
               <li>
+                <Link href={"/contacts"}>
+                  <a>Контакты</a>
+                </Link>
+              </li>
+			  <li>
+                <Link href={"/galary"}>
+                  <a>Галерея</a>
+                </Link>
+              </li>
+			  <li>
                 <Link href={"/about"}>
                   <a>О нас</a>
                 </Link>
@@ -34,28 +44,7 @@ export function MainLayout({ children }) {
         <main className={styles.main}>{children}</main>
       </div>
       <footer className={styles.footer}>
-        <ul className={styles.footerElem}>
-          <li>
-            <Link href={"/about"}>
-              <a>О нас</a>
-            </Link>
-          </li>
-          <li>
-            <Link href={"/contacts"}>
-              <a>Контакты</a>
-            </Link>
-          </li>
-          <li>
-            <Link href={"/practice"}>
-              <a>Тренировки</a>
-            </Link>
-          </li>
-          <li>
-            <Link href={"/team"}>
-              <a>Наша команда</a>
-            </Link>
-          </li>
-        </ul>
+       
       </footer>
     </>
   );

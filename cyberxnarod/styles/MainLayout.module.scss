@@ -16,7 +16,6 @@ $buttons_bc: rgb(147, 80, 224);
 	color: white;
 	text-align: center;
 	line-height: $box_height;
-	
 }
 .ul li :hover { 
 	transition: all .3s ease;
@@ -42,12 +41,4 @@ $buttons_bc: rgb(147, 80, 224);
 .footer {
 	background-color: brown;
 	height: 200px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
-.footerElem {
-	display: flex;
-	justify-content: space-around;
-	list-style-type: none;
 }

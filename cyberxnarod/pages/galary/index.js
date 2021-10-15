@@ -2,15 +2,15 @@ import Router from "next/router";
 import Head from "next/head";
 import { MainLayout } from "../../layouts/MainLayout";
 
-export default function Team() {
+export default function Galary() {
 	return (
 		<MainLayout>
 			<Head>
-				<title>Наша команда | CyberX</title>
+				<title>Галерея | CyberX</title>
 			</Head>
 
-			<h1>Наша команда</h1>
-			<button onClick={() => Router.push("/")}>Home</button>
+			<h1>Галерея</h1>
+			<button onClick={() => Router.push("/")}>Главная</button>
 		</MainLayout>
 	);
 }
