@@ -2,12 +2,33 @@ $box_width: 200px;
 $box_height: 50px;
 $container_width: 1100px;
 $buttons_bc: rgb(147, 80, 224);
+$hover_color: #53ea93;
+
+.h_container {
+	width: 100%;
+	background-color: coral;
+}
+.h_container ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+.svg :hover{
+	fill: $hover_color;
+	color: $hover_color;
+	transition: all .3s ease;
+}
+.flex_wrapper {
+	display:flex;
+	justify-content: space-between;
+}
 
 .ul {
 	display: flex;
 	justify-content: space-around;
 	list-style-type: none;
 	padding-left: 0;
+	
 }
 .ul li {
 	width: $box_width;
@@ -19,12 +40,15 @@ $buttons_bc: rgb(147, 80, 224);
 }
 .ul li :hover { 
 	transition: all .3s ease;
-	background:#53ea93;
+	background:$hover_color;
 }
 .ul a {
 	display: block;
 	width: $box_width;
 	height: $box_height;
+}
+.padding_left {
+	padding-inline-start: 20px;
 }
 .container {
 	max-width: $container_width;
